@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  
+  }
+  
+  body {
+      background-color: rgba(64, 84, 173); 
+  }
+  
+  #background-image {
+      height: 940px;
+      background: url(/images/background-room5.png) no-repeat;
+      background-size: cover;
+      position: relative;
+      }
+  
+  header {
+      font-family:'Bangers', cursive;
+      color:azure;
+      text-align: center;
+      margin-left: 100px;
+      font-size: 85px;
+      padding-top: 50px;
+      }
+      
+   
+  
+  .panels {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content:space-around;
+      height: 750px;
+      margin-top: 50px;
+      
+  }
+  
+  
+  .game-over {
+      position: absolute;
+      width: 1850px;
+      height: 940px;
+      background: url(/images/game-over-fullscreen-try.png) no-repeat;
+      background-size: cover;
+      top: 0px;
+      left: 20px;
+      
+  }
+  
+  .oculto {
+      display: none;
+  }
+  
+  #game-start {
+      position: absolute;
+      width: 900px;
+      height: 500px;
+      background: url(/images/background-start-finalbig.png) no-repeat;
+      background-size: cover;
+      left: 560px;
+      margin-top: 90px;
+      box-shadow: 10px 10px 5px rgba(19, 57, 114, 0.549);
+      
+  }
+  
+  .btn-start {
+      position:relative;
+      top: 360px;
+      left: 325px;
+  }
+  
+  .btn-start:hover {
+      cursor: pointer;
+      border: 3px solid #FB1FFD;
+     
+  }
+  
+  .btn-try-again {
+      position: relative;
+      top: 660px;
+      left: 870px;
+  }
+  
+  .btn-try-again:hover {
+      cursor: pointer;
+      border: 3px solid #FB1FFD;
+  }
+  
+  
+  .game-panel {
+      background-color: rgba(116, 172, 225, 0.7); 
+      margin-left: 300px;
+      width: 1000px;
+      height: 600px;
+      border-radius: 1.5%;
+      position: relative;
+      border: 7px solid white
+      
+  }
+  
+  .hidden {
+      visibility: hidden;
+  }
+  
+  .bill-panel {
+      background-color: rgba(236, 111, 94, 0.8);
+      margin-right: 230px;
+      width: 320px;
+      height: 600px;
+      border-radius: 2%;
+      position: relative;
+      border: 7px solid white
+  }
+  
+  .counter-panel {
+      position: absolute;
+      background-color: rgb(255, 255, 255) ;
+      width: 230px;
+      height: 65px;
+      top: 400px;
+      left:30px;
+      border: 15px solid rgb(53, 49, 84);
+      border-radius: 10%;
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: 5px;
+      
+  
+  }
+  
+  .yellow-background {
+      background-color: rgba(242, 188, 40);
+      height: 65px;
+      
+  }
+              
+  
+  .red-background {
+      background-color:rgba(234, 48, 65);
+      height: 65px;
+  }
+  
+  
+  .kw {
+      position:absolute;
+      top: 19px;
+      left: -90px;  
+  }
+  
+  
+  .bulb {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+  }
+  
+  .switch {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      
+  }
+  
+  .rotate {
+      transform: scaleX(-1);
+      transform: scaleY(-1);
+     
+  }
+  
+   #counter::after {
+      content:"€"
+   }
+  
+   .bulb-1 {
+      top: 100px;
+      left: 25px;
+   }
+  
+   .bulb-2 {
+      top: 100px;
+      left: 225px;
+   }
+  
+   .bulb-3 {
+      top: 100px;
+      left: 425px;
+   }
+  
+   .bulb-4 {
+      top: 100px;
+      left: 625px;
+   }
+  
+   .bulb-5 {
+      top: 100px;
+      left: 825px;
+   }
+  
+  
+   .switch-1 {
+      bottom: 150px;
+      left: 85px; 
+   }
+  
+   .switch-2 {
+      bottom: 150px;
+      left: 285px; 
+   }
+  
+   .switch-3 {
+      bottom: 150px;
+      left: 485px;
+       
+   }
+  
+   .switch-4 {
+      bottom: 150px;
+      left: 685px; 
+   }
+  
+   .switch-5 {
+      bottom: 150px;
+      left: 885px;
+  
+   }
+  
+  

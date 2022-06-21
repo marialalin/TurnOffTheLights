@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TurnOffTheLights</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Codystar&family=Lacquer&family=Monoton&family=Orbitron:wght@400;500&family=Sedgwick+Ave+Display&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+    </style>
+    <audio id="switch-click" src="/sounds/clickOff.mp3"></audio>
+    <audio id="clickOff" src="/sounds/clickOff.mp3"></audio>
+    <audio id="clickOn" src="/sounds/ClickOn1.mp3"></audio>
+    <audio id="breaking-bulbs" src="/sounds/breaking-bulbs.mp3"></audio>
+    <audio id="music1" src="/sounds/sound-bulb1.mp3"></audio>
+    <audio id="music2" src="/sounds/sound-bulb2-reg.mp3"></audio>
+    <audio id="music3" src="/sounds/sound-bulb3.mp3"></audio>
+    <audio id="musicgameover" src="/sounds/GameOverDr2.mp3"></audio>
+  </head>
+  <body>
+    <div id="background-image">
+      <header>
+        <p>TuRN oFF tHE LiGHtS!!!</p>
+      </header>
+
+      <div id="game-start">
+        <img src="/images/btn-prob2.png" class="btn-start" alt="play" />
+      </div>
+
+      <div id="game-over">
+        <img
+          src="/images/btn-try-again-final.png"
+          class="btn-try-again oculto"
+          alt="try-again"
+        />
+      </div>
+
+      <div class="panels hidden" id="game-canvas">
+        <div class="game-panel"></div>
+
+        <div class="bill-panel">
+          <div class="kw">
+            <img src="/images/contador.png" alt="" />
+          </div>
+          <div class="counter-panel">
+            <div id="counter">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/assets/js/bulb.js"></script>
+  <script src="/assets/js/game.js"></script>
+  <script src="/assets/js/index.js"></script>
+</html>

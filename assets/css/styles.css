@@ -12,7 +12,7 @@
   
   #background-image {
       height: 940px;
-      background: url(/images/background-room5.png) no-repeat;
+      background: url(/assets/images/background-room5.png) no-repeat;
       background-size: cover;
       position: relative;
       }
@@ -43,7 +43,7 @@
       position: absolute;
       width: 1850px;
       height: 940px;
-      background: url(/images/game-over-fullscreen-try.png) no-repeat;
+      background: url(/assets/images/game-over-fullscreen-try.png) no-repeat;
       background-size: cover;
       top: 0px;
       left: 20px;
@@ -58,7 +58,7 @@
       position: absolute;
       width: 900px;
       height: 500px;
-      background: url(/images/background-start-finalbig.png) no-repeat;
+      background: url(/assets/images/background-start-finalbig.png) no-repeat;
       background-size: cover;
       left: 560px;
       margin-top: 90px;

@@ -1,6 +1,6 @@
-const BULB_IMAGE_ON = "/images/bulb1-yellow.png"
-const BULB_IMAGE_OFF = "/images/bulb1-grey.png"
-const SWITCH_IMAGE = "/images/switcher.png"
+const BULB_IMAGE_ON = "/assets/images/bulb1-yellow.png"
+const BULB_IMAGE_OFF = "/assets/images/bulb1-grey.png"
+const SWITCH_IMAGE = "/assets/images/switcher.png"
 
 class Bulb {
   constructor(bulbId, switchId ) {
